@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Авторизація</title>
+	<link rel="stylesheet" href="style_athorization.css" media="screen" type="text/css" />
+	
+	
+</head>
+<body>
+
+
+    <div class="show-top">
+        <a href="reccomendations.html" >Головна Tik Tik Clone</a>
+        <span class="right">
+        </span>
+    <div class="clr"></div>
+    </div>
+
+
+    <div id="login">
+        <form action="javascript:void(0);" method="get">
+            <fieldset class="clearfix">
+                <p><span class="fontawesome-user"></span><input type="text" value="Логін" onBlur="if(this.value == '') this.value = 'Логін'" onFocus="if(this.value == 'Логін') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+                <p><span class="fontawesome-lock"></span><input type="password"  value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+                <p><input onClick='location.href="user_rec.html"'  type="submit" value="Увійти"></p>
+            </fieldset>
+        </form>
+        <p>Немає акаунта? &nbsp;&nbsp;<a href="registration.html">Регістрація</a><span class="fontawesome-arrow-right"></span></p>
+    </div>
+</body>
+</html>

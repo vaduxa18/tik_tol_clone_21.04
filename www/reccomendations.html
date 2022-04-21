@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tok Clone</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style_rec.css" type="text/css">
+    <script src="drop_down_btn.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/dba497c156.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="d5">
+                    <div class="d5">
+                        <form>
+                          <input type="text" placeholder="Пошук відео та акаунтів">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                        </div>
+                </div>
+                <nav class="nav">
+                   
+                  <a class="nav_link" href="#">Завантажити</a>
+                    <a class="nav_link" href="authorization.html" >Увійти</a>
+                    <div class="dropdown">
+                        <a onclick="myFunction()" class="nav_link dropbtn" href="#">Інше</a>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#">Мова</a>
+                          <a href="#">Зворотній зв'язок та допомога</a>
+                        </div>
+                      </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="sidenav">
+      <p class="name" ><b><a href="#">Tik Tok Clone</a></b></p>
+        <a href="#" class="switch"><i class="fa fa-home"></i>Рекомендації</a>
+        <a href="subscriptions.html" class="switch"><i class="fa fa-user-friends"></i>Підписки</a>
+        <a href="#" class="ch switch"><i class="fa fa-video "></i>Стрім</a>
+        <div class="banner">
+            <div class="wrapper">
+                <p class="clue">Увійдіть, щоб підписуватись на авторів, ставити лайки відео та читати коментарі.</p>
+                <a href="authorization.html" class="floating-button">Увійти</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="item">
+      <div class="product">
+        <div class="thumb-img">
+          <div >
+            <video controls="controls" muted="muted" autoplay="autoplay" class="video" src="videos\video_first_user.mp4"></video>
+          </div>
+          <div class="actions">
+            <a href="" class="share-button"><i class="fa fa-search"></i></a>
+            <span class="share-wrap">
+              <a href="" class="share-button"><i class="fa fa-cloud"></i></a>
+              <span class="share-item">
+                <a class="share-button" href=""><i class="fa fa-facebook"></i></a>
+                <a class="share-button" href=""><i class="fa fa-twitter"></i></a>
+                <a class="share-button" href=""><i class="fa fa-google-plus"></i></a>
+                <a class="share-button" href=""><i class="fa fa-pinterest-p"></i></a>
+              </span>
+            </span>
+            <a href="" class="share-button"><i class="fa fa-heart-o"></i></a>
+            <a href="" class="add-to-cart">Стежити</a>
+          </div>
+        </div>
+        <div class="product-about">
+          <h3 class="product-title">
+           
+              <a  href="#"><img src="image/avatar.png" alt="Аватар" class="round_user dropbtn"/></a>
+              <p class="name_user">user_name_1</p>
+             <br>
+            <p class="description" >So sad story about tiger <b>#rec#sad</b></p>
+          </h3>
+          <span class="price">431k <i class="fa fa-heart-o"></i></span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="item">
+      <div class="product">
+        <div class="thumb-img">
+          <div >
+            <video controls="controls" muted="muted" autoplay="autoplay" class="video" src="videos\video_first_user.mp4"></video>
+          </div>
+          <div class="actions">
+            <a href="" class="share-button"><i class="fa fa-search"></i></a>
+            <span class="share-wrap">
+              <a href="" class="share-button"><i class="fa fa-cloud"></i></a>
+              <span class="share-item">
+                <a class="share-button" href=""><i class="fa fa-facebook"></i></a>
+                <a class="share-button" href=""><i class="fa fa-twitter"></i></a>
+                <a class="share-button" href=""><i class="fa fa-google-plus"></i></a>
+                <a class="share-button" href=""><i class="fa fa-pinterest-p"></i></a>
+              </span>
+            </span>
+            <a href="" class="share-button"><i class="fa fa-heart-o"></i></a>
+            <a href="" class="add-to-cart">Стежити</a>
+          </div>
+        </div>
+        <div class="product-about">
+          <h3 class="product-title">
+           
+              <a  href="#"><img src="image/avatar.png" alt="Аватар" class="round_user dropbtn"/></a>
+              <p class="name_user">user_name_1</p>
+             <br>
+            <p class="description" >So sad story about tiger <b>#rec#sad</b></p>
+          </h3>
+          <span class="price">431k <i class="fa fa-heart-o"></i></span>
+        </div>
+      </div>
+    </div><br>
+    <div class="item">
+      <div class="product">
+        <div class="thumb-img">
+          <div >
+            <video controls="controls" muted="muted" autoplay="autoplay" class="video" src="videos\video_first_user.mp4"></video>
+          </div>
+          <div class="actions">
+            <a href="" class="share-button"><i class="fa fa-search"></i></a>
+            <span class="share-wrap">
+              <a href="" class="share-button"><i class="fa fa-cloud"></i></a>
+              <span class="share-item">
+                <a class="share-button" href=""><i class="fa fa-facebook"></i></a>
+                <a class="share-button" href=""><i class="fa fa-twitter"></i></a>
+                <a class="share-button" href=""><i class="fa fa-google-plus"></i></a>
+                <a class="share-button" href=""><i class="fa fa-pinterest-p"></i></a>
+              </span>
+            </span>
+            <a href="" class="share-button"><i class="fa fa-heart-o"></i></a>
+            <a href="" class="add-to-cart">Стежити</a>
+          </div>
+        </div>
+        <div class="product-about">
+          <h3 class="product-title">
+           
+              <a  href="#"><img src="image/avatar.png" alt="Аватар" class="round_user dropbtn"/></a>
+              <p class="name_user">user_name_1</p>
+             <br>
+            <p class="description" >So sad story about tiger <b>#rec#sad</b></p>
+          </h3>
+          <span class="price">431k <i class="fa fa-heart-o"></i></span>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

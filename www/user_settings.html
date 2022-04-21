@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tok Clone</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style_settings.css" type="text/css">
+    <script src="drop_down_btn.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/dba497c156.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="d5">
+                    <div class="d5">
+                        <form>
+                          <input type="text" placeholder="Пошук відео та акаунтів">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                        </div>
+                </div>
+                <nav class="nav">
+                    <a class="logo_1" href="user_rec.html"><b>Tik Tok Clone</b></a>
+                    <a class="nav_link tooltip" href="load_video.html"><i class="fa fa-solid fa-cloud-arrow-down"></i>
+                        <span class="tooltiptext">Завантажити відео</span></a>
+                    <a class="nav_link tooltip" href="user.message.html" ><i class="fa fa-thin fa-paper-plane"></i>
+                        <span class="tooltiptext">Повідомлення</span></a></a>
+                    <a class="nav_link tooltip" href="#"><i class="fa fa-thin fa-message"></i>
+                        <span class="tooltiptext">Вхідні</span></a></a>
+                        <div class="dropdown">
+                            <a onclick="myFunction()" class="nav_link " href="#"><img src="image/avatar.png" alt="Аватар" class="round dropbtn"/></a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="my_data.html">Дивитись профіль</a>
+                              <a class="last" href="#">Налаштування</a>
+                              <a href="index.html"><i class="fas fa-solid fa-arrow-right-from-bracket"></i>Вийти</a>
+                            </div>
+                          </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container_settings">
+        <a href="#" ><i class="fa fa-user"></i>Керування обліковим записом</a>
+        <a href="#" ><i class="fa fa-lock"></i>Конфіденційність</a>
+        <a href="#"><i class="fa fa-bell"></i>Push-сповіщення</a>
+    </div>
+    <div class="container_settings_2">
+        <p class="title1_settings">Керування обліковим записом</p>
+        <div class="small_container">
+            <p class="title2_settings">Керування обліковим записом</p>
+            <p class="title3_settings">Видалити обліковий запис</p>
+            
+            <hr>
+        </div>
+        <p class="title1_settings">Конфіденційність</p>
+        <div class="small_container">
+            <p class="title2_settings">Видимість</p>
+            <p class="title3_settings">Приватний обліковий запис</p>
+            <div class="chek1">
+                <label class="switcher">
+                    <input type="checkbox">
+                    <span class="slider round_settings"></span>
+                  </label>
+            </div>
+          
+            <p class="title4_settings">Тільки схвалені передплатники бачать відео в приватному обліковому записі. Це не позначиться на поточних передплатниках.</p>
+            <hr>
+        </div>
+        <div class="small_container">
+            <p class="title2_settings">Дані</p>
+            <p class="title3_settings">Download your data</p>
+            <p class="title4_settings">Отримати копію ваших даних у TikTok</p>
+            <hr>
+        </div>
+        <p class="title1_settings">Push-сповіщення</p>
+        <div class="small_container">
+            <p class="title2_settings">Сповіщення на ПК</p>
+            <p class="title3_settings">Дозволити у браузері</p>
+            <div class="chek2">
+                <label class="switcher">
+                    <input type="checkbox">
+                    <span class="slider round_settings"></span>
+                  </label>
+            </div>
+            
+            <p class="title4_settings">Миттєво дізнавайтеся про нові лайки, коментарі та відео за допомогою повідомлень на комп'ютері. Їх можна вимкнути будь-якої миті.</p>
+            <hr>
+        </div>
+        <div class="small_container">
+            <p class="title2_settings">Ваші налаштування</p>
+            <p class="title4_settings">Ваші налаштування автоматично синхронізуються з програмою TikTok.</p>
+            <p class="title3_settings">Взаємодія</p>
+            <p class="title4_settings">Лайки, коментарі, нові передплатники, згадки</p>
+            <hr>
+        </div>
+
+    </div>
+   
+        
+</body>
+</html>
